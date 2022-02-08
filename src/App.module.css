@@ -1,0 +1,25 @@
+.main {
+  margin: 1rem;
+  color: #2D3748;
+}
+
+.baseWrapper {
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.titleWrapper {
+  composes: baseWrapper;
+}
+
+.title {
+  text-align: center;
+}
+
+.searchedTopicWrapper {
+  display: inline-flex;
+  margin: 0.8rem 0;
+  composes: baseWrapper;
+}
