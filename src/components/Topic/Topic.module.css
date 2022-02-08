@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+  border: 1px solid  rgb(209 213 219);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main:hover {
+  background-color:rgba(93, 129, 228, 0.596);
+}
+
+.topicName {
+  width: 100%;
+  margin: 0;
+}
