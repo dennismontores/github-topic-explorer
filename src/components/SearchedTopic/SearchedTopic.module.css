@@ -1,0 +1,12 @@
+.main {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+
+.currentTopic {
+  margin: 0;
+  display: inline-block;
+  text-decoration: underline;
+}
