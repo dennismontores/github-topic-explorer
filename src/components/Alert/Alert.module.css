@@ -1,0 +1,24 @@
+.main {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.success {
+  composes: main;
+  background-color: rgb(198, 246, 213);
+}
+.error {
+  composes: main;
+  background-color: rgb(254, 215, 215);
+}
+
+.warning {
+  composes: main;
+  background-color: rgb(254, 235, 200);
+}
+
+.info {
+  composes: main;
+  background-color: rgb(190, 227, 248);
+}
