@@ -13,7 +13,7 @@ const Topic = ({ relTop, handleClick }: TopicProps): JSX.Element => {
       <p className={CSS.topicName}>
         <strong>Topic:</strong> {relTop.name}
       </p>
-      <div style={{ width: '100%' }}>
+      <div className={CSS.wrapperCounter}>
         <strong>Stars:</strong>&nbsp;
         <StargazerCounter counter={relTop.stargazerCount} />
       </div>

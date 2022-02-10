@@ -13,6 +13,10 @@
   background-color:rgba(93, 129, 228, 0.596);
 }
 
+.wrapperCounter {
+  width: 100%;
+}
+
 .topicName {
   width: 100%;
   margin: 0;
